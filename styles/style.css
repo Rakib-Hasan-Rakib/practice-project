@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.445), rgba(22, 21, 22, 0.459)), url('../images/donation7.jpg');
+    background-size: cover;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-div{
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.header-desc{
+    font-size: 1.5rem;
+    margin: 2rem auto;
+}
+
+
+main{
+    max-width: 85%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 6rem;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.8rem;
+}
+.donate-btn{
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #f53030;
+    border: none;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    cursor: pointer;
+}
+.para{
+    font-size: 1.6rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+#donate-today{
+    width: 100%;
+    margin: 15rem 0;
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.amount .taka{
+    color: #302f2f;
+    font-size: 2rem;
+    /* border: 1px solid red; */
+    padding: 2rem 2.5rem;
+    font-weight: 700;
+}
+.amount .sec-taka{
+    color: #f53030;
+    border: 2px solid #f53030;
+    border-radius: .5rem;
+}
+
+#donate-plan{
+    width: 100%;
+    margin: 15rem auto;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.plans .plan{
+    margin: 5rem 0;
+    color: #302f2f;
+}
+.plans .plan h3{
+    margin: 1.5rem 0;
+    color: #1b1b1b;
+}
+.plans .plan p{
+    font-size: 1.4rem;
+}
+
+
+
+
+
+#contribute{
+    width: 100%;
+    text-align: left;
+}
+#contribute h2{
+    text-align: left;
+}
+/* #contribute img{
+    height: 38rem;
+    width: 25rem;
+} */
+/* .they-depend,
+.they-survive{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    border: 1px solid red;
+    height: 40rem;
+} */
+.they-depend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 35rem;
+    margin-bottom: 12rem;
+    border: 1px solid red;
+}
+.they-depend .depend-desc{
+    width: 45%;
+    text-align: left;
+}
+.they-depend .depend-image{
+    width: 45%;
+}
+.they-depend .depend-image img{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    border-radius: 1rem;
+}
+.they-survive{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 35rem;
+}
+.they-survive .survive-desc{
+    width: 45%;
+}
+.they-survive .survive-image{
+    width: 45%;
+}
+.they-survive .survive-image img{
+    width: 100%;
+    height: 80%;
+}
